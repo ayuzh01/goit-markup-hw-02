@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -22,20 +24,25 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo .accent{
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .header-menu {
 }
+
 .header-menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.header-menu-item:hover,
+.header-menu-item:focus {
+    color: #404bbf;
 }
 .contacts {
 }
@@ -49,8 +56,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+font-style: normal;
 }
-
+.contacts-link:hover,
+.contacts-link:focus {
+color: #404bbf;
+}
 /* -------------------header end ---------------------*/
 
 .solutions {
@@ -71,6 +82,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+background-color: #4D5AE5
+}
+.solutions-btn:hover,
+.solutions-btn:focus {
+    color: #404BBF;
 }
 
 /* -------------solutions end-------------- */
@@ -80,11 +96,8 @@ cursor: pointer;
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
-    width: 1px;
 
 }
 .features-list {
@@ -111,10 +124,17 @@ color: #434455;
     background: #f4f4fd;
 }
 .team-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 .team-list {
 }
 .team-list-item {
+    background-color: #FFFFFF;
 }
 .team-item-image {
 }
@@ -145,6 +165,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -178,11 +199,11 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color: #4d5ae5;
 }
 
 .footer-logo .accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 .footer-text {
     font-size: 16px;
